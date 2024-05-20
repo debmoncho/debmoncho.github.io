@@ -1,0 +1,42 @@
+header {
+    padding: 50px;
+    background-color: rgb(201, 191, 160);
+    text-align: center;
+}
+
+h1 { 
+    text-align: center;
+    font-family: 'Copperplate', 'Papyrus', fantasy; 
+    font-size: 65px;
+    color: rgb(211, 84, 0);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    font-family: 'Copperplate', 'Papyrus', fantasy; 
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: darkgrey;
+}
+
+.contenido h2 {
+
+    font-family: 'Copperplate', 'Papyrus', fantasy; 
+}
+
+.contenido img {
+    width: 700px;
+    height: 450px;
+}
+
