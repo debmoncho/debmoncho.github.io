@@ -40,3 +40,15 @@ nav a {
     height: 450px;
 }
 
+/*
+#videoFondo video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que el video cubra todo el contenedor
+    z-index: -1; /* Coloca el video detrás del contenido
+}
+*/
