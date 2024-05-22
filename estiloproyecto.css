@@ -1,64 +1,123 @@
 header {
-    padding: 50px;
-    background-color: rgb(201, 191, 160);
-    text-align: center;
+  padding: 50px;
+  background-color: rgb(201, 191, 160);
+  text-align: center;
 }
 
-h1 { 
-    text-align: center;
-    font-family: 'Copperplate', 'Papyrus', fantasy; 
-    font-size: 65px;
-    color: rgb(211, 84, 0);
+h1 {
+  text-align: center;
+  font-family: "Copperplate", "Papyrus", fantasy;
+  font-size: 65px;
+  color: rgb(211, 84, 0);
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    background-color: grey;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  justify-content: center;
+  gap: 10px;
 }
 
 nav a {
-    font-family: 'Copperplate', 'Papyrus', fantasy; 
-    color: white;
-    padding: 15px 20px;
-    text-decoration: none;
+  font-family: "Copperplate", "Papyrus", fantasy;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
 }
 
 .menu a:hover {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
-.contenido h2 {
-
-    font-family: 'Copperplate', 'Papyrus', fantasy; 
+.contenedor h2 {
+  font-family: "Copperplate", "Papyrus", fantasy;
+  color: red;
 }
 
-.contenido img {
-    width: 700px;
-    height: 450px;
+.contenedor img {
+  width: 700px;
+  height: 450px;
 }
 
-/*
-#videoFondo video {
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Hace que el video cubra todo el contenedor
-    z-index: -1; /* Coloca el video detrás del contenido
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgb(1, 1, 1);
 }
-*/
 
-.imgHP img {
+.redes a {
+  /*color: inherit; /* Mantiene el color original de los iconos */
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  color: blue;
+  font-size: 25px; /* Ajusta el tamaño del icono según tu preferencia */
 }
+
+
+.sliderMaestro {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Ajusta esta altura según tus necesidades */
+}
+
+.sliderSecundario {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Asegura que el contenedor tome todo el espacio disponible */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.atrasBotones img,
+.siguienteBotones img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+
+.indicadores {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.indicadores .circulo {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgb(144, 225, 254);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.indicadores .activo {
+  background-color: black;
+}
+
+
+body {
+  background-image: url('Img/fondo HomePage.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra toda el área */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center center; /* Centra la imagen */
+  margin: 0; /* Elimina márgenes para que la imagen cubra toda el área */
+  font-family: "Copperplate", "Papyrus", fantasy; /* Mantén la fuente establecida */
+}
+

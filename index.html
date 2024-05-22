@@ -3,7 +3,9 @@
 <head>
   <title>Proyecto Final</title>
   <meta charset="UTF-8" />
+
   <link rel="stylesheet" type="text/css" href="estiloproyecto.css" />
+
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -11,42 +13,46 @@
 </head>
 
 <body>
-  <header>
-    <h1>Patitas a salvo</h1>
-  </header>
+  <div class="contenedorFondo">
+    <header>
+      <h1>Patitas a salvo</h1>
+    </header>
 
-  <nav class="menu">
-    <a href="#">Inicio</a>
-    <a href="articulo/articulo.html">¿Quienes Somos?</a>
-    <a href="#">Contacto</a>
-  </nav>
+    <nav class="menu">
+      <a href="#">Inicio</a>
+      <a href="articulo/articulo.html">¿Quienes Somos?</a>
+      <a href="#">Contacto</a>
+    </nav>
 
-  <!--
-  <video autoplay muted loop id="videoFondo">
-    <source src="Img/VideoBackgroundHomepage.mp4" type="VideoBackgroundHomepage" />
-  </video>
-  -->
+    <div class="sliderMaestro">
+      <div class="sliderSecundario">
+        <div class="contenedor">
+          <div class="atrasBotones">
+            <img src="Img/flecha izquierda.png" alt="Atras" />
+          </div>
 
+          <img id="imagenes" src="Img/Slider01.jpeg" alt="" />
 
-  <!-- queria que la imagen acontinuacion apareciera como fondo de homepage-->
-  <!-- pero no me esta quedando como quiero, la dejo por si las moscas, la idea era poner el video -->
+          <div class="siguienteBotones">
+            <img src="Img/flecha derecha.png" alt="Siguiente" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="indicadores"></div>
 
-  
-  <div>
-    <img id="imgHP" src="Img/fondo HomePage.jpg" alt="HomePage">
+    <div class="contenedor">
+      <h2>Pasos para alcanzar la adopción perfecta</h2>
+      <img src="imagenes/la-adopcion-perfecta.gif" alt="" />
+    </div>
+
+    <div class="redes">
+      <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
   </div>
-  
 
-  <div class="contenido">
-    <h2>Pasos para alcanzar la adopción perfecta</h2>
-    <img src="imagenes/la-adopcion-perfecta.gif" alt="" />
-  </div>
-
-  <div class="redes">
-    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
-    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-  </div>
-
+  <script src="estilos.js"></script>
 </body>
