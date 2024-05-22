@@ -7,7 +7,7 @@ header {
 h1 {
   text-align: center;
   font-family: "Copperplate", "Papyrus", fantasy;
-  font-size: 65px;
+  font-size: 50px;
   color: rgb(211, 84, 0);
 }
 
@@ -30,13 +30,23 @@ nav a {
   background-color: darkgrey;
 }
 
-.contenedor h2 {
+
+.imagenGif {
+  justify-content: center;
+  margin-left: 65px;
+  margin-top: 75px;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 50%;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
   font-family: "Copperplate", "Papyrus", fantasy;
   color: red;
 }
 
-.contenedor img {
-  width: 700px;
+.contenedor img{
+  width: 1000px;
   height: 450px;
 }
 
@@ -53,7 +63,7 @@ nav a {
   /*color: inherit; /* Mantiene el color original de los iconos */
 
   color: blue;
-  font-size: 25px; /* Ajusta el tamaño del icono según tu preferencia */
+  font-size: 25px; /* Ajusta el tamaño del icono según preferencia */
 }
 
 
@@ -64,7 +74,7 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px; /* Ajusta esta altura según tus necesidades */
+  height: 500px;
 }
 
 .sliderSecundario {
@@ -76,7 +86,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%; /* Asegura que el contenedor tome todo el espacio disponible */
+  width: 100%;
 }
 
 img {
@@ -118,6 +128,6 @@ body {
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: center center; /* Centra la imagen */
   margin: 0; /* Elimina márgenes para que la imagen cubra toda el área */
-  font-family: "Copperplate", "Papyrus", fantasy; /* Mantén la fuente establecida */
+  font-family: "Copperplate", "Papyrus", fantasy;
 }
 

@@ -49,5 +49,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     setInterval(() => {
         cont = (cont + 1) % imagenes.length;
         actualizarCarrusel();
-    }, 3000); // Cambiar cada 3 segundos
+    }, 3000); // tiempo de actualizacion del carrousel
 });
