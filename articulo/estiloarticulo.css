@@ -1,0 +1,10 @@
+body {
+  background-image: url("img2/imagen_fondo.png");
+  background-size: cover; /* Ajusta la imagen para que cubra toda el área */
+  background-repeat: repeat; /* Evita que la imagen se repita */
+  background-position: center center; /* Centra la imagen */
+  margin: 0; /* Elimina márgenes para que la imagen cubra toda el área */
+  font-family: "Copperplate", "Papyrus", fantasy;
+}
+
+
