@@ -1,7 +1,26 @@
-header {
+/*.cabecera {
+  width: 100%;
+  height: auto;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  margin: 0;
   padding: 50px;
   background-color: rgb(201, 191, 160);
-  text-align: center;
+  text-align: center;} */
+
+
+.cabecera {
+  width: 100%;
+  height: 300px;
+  overflow:hidden;
+}
+
+.cabecera img {
+  width: 100%;
+  height: auto;
+  display:block;
+  object-fit: cover;
 }
 
 h1 {
@@ -123,7 +142,7 @@ img {
 
 
 body {
-  background-image: url('Img/fondo HomePage.jpg');
+  background-image: url('Img/imagen\ fondo.png');
   background-size: cover; /* Ajusta la imagen para que cubra toda el área */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: center center; /* Centra la imagen */
