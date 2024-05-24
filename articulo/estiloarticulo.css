@@ -45,6 +45,35 @@ nav a {
   background-color: darkgrey;
 }
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  box-sizing: border-box;
+  flex: 30%;
+  padding: 20px;
+  background-color: rgb(236, 235, 235);
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+}
+
+/*
 .textoFE2 {
   position: absolute;
   top: 38%;
@@ -59,7 +88,7 @@ nav a {
   /*padding-inline: 50px;
   padding-right: 100px;
   padding-left: 300px;
-  /*text-align: left;*/
+  /*text-align: left;
   color: red;
   font-size: 45px;
 }
@@ -70,8 +99,7 @@ nav a {
   /*position: relative;*/
   /* vertical-align: top;*/
   /*width: 45%;*/
-}
-
+/*
 .txt0{
   transform: translate(-15%, -50%);
 }
@@ -95,7 +123,5 @@ nav a {
 .tbody{
 
 text-align: center;
-/*padding-right: 500px;*/
-/*padding-left: 150px;*/
-
-}
+padding-right: 500px;
+padding-left: 150px;*/
