@@ -1,46 +1,101 @@
 body {
-    background-image: url("img2/imagen_fondo.png");
-    background-size: cover; /* Ajusta la imagen para que cubra toda el área */
-    background-repeat: repeat; /* Evita que la imagen se repita */
-    background-position: center center; /* Centra la imagen */
-    margin: 0; /* Elimina márgenes para que la imagen cubra toda el área */
-    font-family: "Copperplate", "Papyrus", fantasy;
-  }
-  
-  .cabecera2 {
-      width: 100%;
-  }
-  
-  .encabezado2 {
-      width: 100%;
-      height: 400px; /* Ajusta la altura según tus necesidades */
-      overflow: hidden;
-      position: relative;
-  }
-  
-  .imagenCabecera {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* Asegura que la imagen cubra todo el espacio del contenedor */
-      object-position: center; /* Centra la imagen dentro del contenedor */
-      display: block;
-  }
+  background-image: url("img2/imagen_fondo.png");
+  background-size: cover; /* Ajusta la imagen para que cubra toda el área */
+  background-repeat: repeat; /* Evita que la imagen se repita */
+  background-position: center center; /* Centra la imagen */
+  margin: 0; /* Elimina márgenes para que la imagen cubra toda el área */
+  font-family: "Copperplate", "Papyrus", fantasy;
+}
 
-  nav {
-    display: flex;
-    flex-direction: row;
-    background-color: grey;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  nav a {
-    font-family: "Copperplate", "Papyrus", fantasy;
-    color: white;
-    padding: 15px 20px;
-    text-decoration: none;
-  }
-  
-  .menu a:hover {
-    background-color: darkgrey;
-  }
+.cabecera2 {
+  width: 100%;
+}
+
+.encabezado2 {
+  width: 100%;
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+  position: relative;
+}
+
+.imagenCabecera {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra todo el espacio del contenedor */
+  object-position: center; /* Centra la imagen dentro del contenedor */
+  display: block;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav a {
+  font-family: "Copperplate", "Papyrus", fantasy;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: darkgrey;
+}
+
+.textoFE2 {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 251, 251);
+  padding: 10px;
+  font-size: 80px;
+}
+
+.tituloTabla1{
+  /*padding-inline: 50px;
+  padding-right: 100px;
+  padding-left: 300px;
+  /*text-align: left;*/
+  color: red;
+  font-size: 45px;
+}
+
+.cuerpoDeTabla1 {
+  text-align: center;
+  font-size: 22px;
+  /*position: relative;*/
+  /* vertical-align: top;*/
+  /*width: 45%;*/
+}
+
+.txt0{
+  transform: translate(-15%, -50%);
+}
+
+.txt00{
+  transform: translate(-150%, -50%);
+}
+
+.txt1 {
+  width: 50%;
+  padding-left: 50px;
+  transform: translate(5%, -18%);
+}
+
+.txt2 {
+  width: 50%;
+  padding-left: 50px;
+  transform: translate(5%, -18%);
+}
+
+.tbody{
+
+text-align: center;
+/*padding-right: 500px;*/
+/*padding-left: 150px;*/
+
+}
