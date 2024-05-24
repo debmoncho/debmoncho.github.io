@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang ="en">
 <head>
+    <meta charset = "UTF-8">
     <title>
             FORMULARIO Proyecto Final
     </title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="estiloformulario.css">
+    <link rel="stylesheet" href="estiloformulario.css">
     <script src="validacion.js"></script>
 </head>
 
@@ -13,10 +13,10 @@
     <div class="container">
         <form onsubmit="return validar()" autocomplete="off">
             <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" onfocus="limpiarErrores(event)">
+            <input type="text" name="nombre" id="nombre" onfocus="limpiarErrores(event)"> 
             <br>
             <label for="mail">Mail:</label>
-            <input type="mail" name="mail" id="mail" onfocus="limpiarErrores(event)">
+            <input type="text" name="mail" id="mail" onfocus="limpiarErrores(event)">
             <br>
             <label for="telefono">Telefono:</label>
             <input type="number" name="telefono" id="telefono" onfocus="limpiarErrores(event)">   
@@ -28,7 +28,6 @@
     <div id ="contenido">
         <h1>Listado</h1>
         <ul id="list">
-
         </ul>
     </div>
 </body>

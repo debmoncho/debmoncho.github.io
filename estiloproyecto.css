@@ -31,7 +31,6 @@ h1 {
 }
 
 nav {
-  margin-top: auto;
   display: flex;
   flex-direction: row;
   background-color: grey;

@@ -1,20 +1,15 @@
-
 const regExpNombre = /^[a-zA-Z]{0,9}$/;
 const regExpMail = /^[\w-.]+@[\w-_]+(\.[a-zA-Z]{2,4}){1,2}$/
 const regExpTelefono = /^[1-9][0-9]{9}$/;
 
 function limpiarErrores(event) {
+    const actualInput = event.target;
+    const actualHermano = actualInput.nextSibling;
 
-    const actualInput = event.target
-    const actualHermano = actualInput.nextSibiling;
+   if(actualHermano.classList && actualHermano.classList.contains('colorRojo')) {
 
-    console.log(actualHermano);
-//    console.log(actualHermano.classList.contains('colorRojo'))
-//
-//   if(actualHermano.classList && actualHermano.classList.contains('colorRojo')) 
-//
-//        actualHermano.remove();   
-
+        actualHermano.remove();   
+   }
 }
 
 function validar() {
@@ -30,7 +25,7 @@ function validar() {
         const spanError = document.createElement('span');
         spanError.textContent = "*Ingrese un nombre válido";
         spanError.className= 'colorRojo';
-        nombre.insertAdjacentElement('afterend', spanError);
+        nombre.insertAdjacentElement('afterend',spanError);
 
         flagError = true;
     }
@@ -48,7 +43,7 @@ function validar() {
 
 
     if(telefono.value && !regExpTelefono.test(telefono.value)){
-        console.log("Error telefono")
+        console.log("Error telefono");
         const spanError = document.createElement('span');
         spanError.textContent = "*Ingrese un teléfono válido";
         spanError.className= 'colorRojo';
@@ -66,10 +61,6 @@ function validar() {
             texto = `Hola ${nombre.value}, te mandaremos un mail a ${mail.value}
             para finalizar la adopcion de la mascota`;
        }
-        //const texto = telefono.value ? 
-        //'Hola <nombre>, te mandaremos un mail a <mail> o te llamaremos al <telefono> para finalizar la adopcion de la mascota'
-        //: 
-        //'Hola <nombre>, te mandaremos un mail a <mail> para finalizar la adopcion de la mascota';
 
         const li = document.createElement('li');
         li.textContent = texto;
@@ -79,13 +70,11 @@ function validar() {
         ul.appendChild(li);
 
         nombre.value = "";
-        temperatura.value = "";
+        mail.value = "";
         telefono.value = "";
 
     }
 
     return false;
-
-
 
 }
