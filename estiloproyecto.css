@@ -49,6 +49,49 @@ nav a {
   background-color: darkgrey;
 }
 
+.cartas {
+  display: flex;
+  justify-content: center;
+}
+
+.carta {
+
+  background-color: rgb(236, 201, 125);
+  width: 270px;
+  margin: 25px;
+  border-radius: 15px;
+}
+
+.cartaimagen {
+  height: 170px;
+  margin-bottom: 20px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.card-1 {
+  background-image: url(Img/carta1\ probable.jpg);
+}
+
+.card-2 {
+  background-image: url(Img/cosas-donar-refugio-animales-portada-668x400x80xX-1.jpg);
+}
+
+.card-3 {
+  background-image: url(Img/carta3.jpg);
+}
+
+.carta h2{
+  text-align: center;
+}
+
+.carta p {
+  text-align: justify;
+  padding: 10px;
+
+}
+
 
 .imagenGif {
   justify-content: center;
