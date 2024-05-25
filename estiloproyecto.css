@@ -25,7 +25,7 @@
 
 h1 {
   text-align: center;
-  font-family: "Copperplate", "Papyrus", fantasy;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 50px;
   color: rgb(211, 84, 0);
 }
@@ -58,13 +58,13 @@ nav a {
 
   background-color: rgb(236, 201, 125);
   width: 270px;
-  margin: 25px;
+  margin: 65px;
   border-radius: 15px;
 }
 
 .cartaimagen {
   height: 170px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-size: cover;
   border-radius: 15px 15px 0 0;
 
@@ -83,10 +83,13 @@ nav a {
 }
 
 .carta h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
 .carta p {
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: justify;
   padding: 10px;
 
