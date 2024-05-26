@@ -11,8 +11,8 @@
 
 
 .cabecera {
-  width: 100%;
-  height: 400px;
+ width: 100%;
+  height: 266px;
   overflow:hidden;
 }
 
@@ -20,7 +20,6 @@
   width: 100%;
   height: auto;
   display:block;
-  object-fit: cover;
 }
 
 h1 {
@@ -172,8 +171,8 @@ img {
 }
 
 
-body {
-  background-image: url('Img/imagen\ fondo.png');
+.imagenHome {
+  background-image: url(Img/imagenFondo.png);
   background-size: cover; /* Ajusta la imagen para que cubra toda el área */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: center center; /* Centra la imagen */
