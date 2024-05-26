@@ -1,4 +1,4 @@
-var imagenes = ['Img/sli1.jpg', 'Img/sli2.jpg', 'Img/sli3.jpg', 'Img/sli4.jpg', 'Img/sli5.jpg'];
+var imagenes = ['Img/Slider01.jpeg', 'Img/Slider02.jpeg', 'Img/Slider03.jpeg', 'Img/Slider04.jpg', 'Img/Slider05.jpg'];
 
 document.addEventListener("DOMContentLoaded", (event) => {
     let cont = 0;
