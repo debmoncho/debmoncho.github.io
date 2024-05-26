@@ -19,6 +19,7 @@ function validar() {
     const nombre = document.getElementById('nombre');
     const telefono = document.getElementById('telefono');
     const mail = document.getElementById('mail');
+    const mensaje = document.getElementById('mensaje');
 
     if(nombre.value == "" || nombre.value.length > 9 || !regExpNombre.test(nombre.value)){
         console.log("Error nombre");
@@ -72,6 +73,7 @@ function validar() {
         nombre.value = "";
         mail.value = "";
         telefono.value = "";
+        mensaje.value = "";
 
     }
 

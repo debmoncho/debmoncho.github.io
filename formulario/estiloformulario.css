@@ -2,3 +2,42 @@
     color: red;
     display: block;
 }
+
+.container,
+.boton {
+    text-align: justify;
+	max-width: 200px;
+	margin: 44%;
+	margin-top: 20px;
+	border-radius: 22px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+fieldset{
+	margin: 50px;
+	border: 2px solid  rgb(196, 139, 41);
+	border-radius: 500px;
+}
+
+legend{
+	color: rgb(196, 139, 41);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.boton{
+    font-family: "Copperplate", "Papyrus", fantasy;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(196, 139, 41);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.letra{
+    text-align: center;
+    color: rgb(196, 139, 41);
+    text-decoration: underline;
+}
+
