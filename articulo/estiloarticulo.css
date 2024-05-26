@@ -66,6 +66,7 @@ nav a {
 }
 
 body {
+  background-color: lightgray;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -115,6 +116,21 @@ aside {
 
   color: orange;
   font-size: 25px; /* Ajusta el tamaño del icono según preferencia */
+}
+
+.creditos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: black;
+}
+
+.creditos h4 {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: orange;
 }
 
 /*

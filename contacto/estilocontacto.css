@@ -1,3 +1,8 @@
+.colorRojo {
+  color: red;
+  display: block;
+}
+
 .imagenHome3 {
     background-image: url(img3/imagenFondo.png);
     background-size: cover; /* Ajusta la imagen para que cubra toda el área */
