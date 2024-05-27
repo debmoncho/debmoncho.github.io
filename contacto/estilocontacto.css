@@ -43,6 +43,35 @@
     background-color: darkgrey;
   }
 
+.ubiyapp {
+  margin-top: 45px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.mensaje {
+  color: chocolate;
+  text-align: center;
+  flex: 1;
+}
+
+.ubi {
+  margin-bottom: 20px;
+}
+
+.app {
+  margin-top: 60px;
+  margin-right: 25%;
+}
+
+.imgcel,
+.imgdesc {
+  margin-right: 20px;
+}
+
   .redes {
     display: flex;
     justify-content: center;
