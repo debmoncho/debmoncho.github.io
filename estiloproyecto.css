@@ -83,6 +83,12 @@ nav a {
 
 }
 
+.app {
+  width: 300px;
+  height: 200px;
+
+}
+
 .contenedor img{
   width: 900px;
   height: 500px;

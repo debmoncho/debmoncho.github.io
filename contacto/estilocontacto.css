@@ -43,6 +43,21 @@
     background-color: darkgrey;
   }
 
+  .redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(1, 1, 1);
+  }
+  
+  .redes a {
+    /*color: inherit; /* Mantiene el color original de los iconos */
+    color: orange;
+    font-size: 25px; /* Ajusta el tamaño del icono según preferencia */
+  }
+
   .creditos {
     display: flex;
     justify-content: center;
