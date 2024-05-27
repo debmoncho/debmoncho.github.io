@@ -21,7 +21,7 @@ function validar() {
     const mail = document.getElementById('mail');
     const mensaje = document.getElementById('mensaje');
 
-    if(nombre.value == "" || nombre.value.length > 9 || !regExpNombre.test(nombre.value)){
+    if(nombre.value == "" || nombre.value.length > 9  || !regExpNombre.test(nombre.value)){
         console.log("Error nombre");
         const spanError = document.createElement('span');
         spanError.textContent = "*Ingrese un nombre válido";
@@ -57,10 +57,10 @@ function validar() {
         let texto;
         if(telefono.value) {
             texto = `Hola ${nombre.value}, te mandaremos un mail a: ${mail.value} 
-            o te llamaremos al: ${telefono.value} para finalizar la adopcion de la mascota`;
+            o te llamaremos al: ${telefono.value} para finalizar la adopción de la mascota.`;
         } else {
             texto = `Hola ${nombre.value}, te mandaremos un mail a: ${mail.value}
-            para finalizar la adopcion de la mascota`;
+            para finalizar la adopción de la mascota.`;
        }
 
         const li = document.createElement('li');
@@ -74,7 +74,6 @@ function validar() {
         mail.value = "";
         telefono.value = "";
         mensaje.value = "";
-
     }
 
     return false;
