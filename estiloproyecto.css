@@ -19,7 +19,9 @@ h1 {
 }
 
 nav {
-  top: 0;
+  position: sticky;
+  top: 0; /* Pegar la barra de navegación en la parte superior del contenedor padre (en este caso, el banner) */
+  z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
   display: flex;
   flex-direction: row;
   background-color: grey;
