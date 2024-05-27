@@ -19,6 +19,7 @@ h1 {
 }
 
 nav {
+  top: 0;
   display: flex;
   flex-direction: row;
   background-color: grey;
