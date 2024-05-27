@@ -56,10 +56,10 @@ function validar() {
     if(!flagError){
         let texto;
         if(telefono.value) {
-            texto = `Hola ${nombre.value}, te mandaremos un mail a ${mail.value} 
-            o te llamaremos al ${telefono.value} para finalizar la adopcion de la mascota`;
+            texto = `Hola ${nombre.value}, te mandaremos un mail a: ${mail.value} 
+            o te llamaremos al: ${telefono.value} para finalizar la adopcion de la mascota`;
         } else {
-            texto = `Hola ${nombre.value}, te mandaremos un mail a ${mail.value}
+            texto = `Hola ${nombre.value}, te mandaremos un mail a: ${mail.value}
             para finalizar la adopcion de la mascota`;
        }
 
