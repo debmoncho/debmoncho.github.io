@@ -1,18 +1,7 @@
-/*.cabecera {
-  width: 100%;
-  height: auto;
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center center; 
-  margin: 0;
-  padding: 50px;
-  background-color: rgb(201, 191, 160);
-  text-align: center;} */
-
 
 .cabecera {
- width: 100%;
-  height: 266px;
+  width: 100%;
+  height: 400px;
   overflow:hidden;
 }
 
@@ -28,8 +17,6 @@ h1 {
   font-size: 50px;
   color: rgb(211, 84, 0);
 }
-
-/*<!--comentario prueba-->*/
 
 nav {
   display: flex;
@@ -112,7 +99,6 @@ nav a {
 
 .redes a {
   /*color: inherit; /* Mantiene el color original de los iconos */
-
   color: orange;
   font-size: 25px; /* Ajusta el tamaño del icono según preferencia */
 }
